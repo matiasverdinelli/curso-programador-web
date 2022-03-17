@@ -14,27 +14,29 @@
         var distancia;
 
         nombre = prompt('ingrese su nombre')
+        document.write('hola ')
+        document.write ( nombre )
         distancia = prompt('ingrese los metros que desea recorrer')
 
         if (distancia > 0 && distancia <= 1000) {
 
-            document.write('deberas realizar el recorrido a pie')
+            document.write(' deberas realizar el recorrido a pie')
 
         } else if (distancia > 1000 && distancia <= 10000){
 
-            document.write('deberas realizar el recorrido en bicicleta')
+            document.write(' deberas realizar el recorrido en bicicleta')
 
         } else if (distancia > 10000 && distancia <= 30000){
 
-            document.write('deberas realizar el recorrido en colectivo') 
+            document.write(' deberas realizar el recorrido en colectivo') 
 
         } else if (distancia > 30000 && distancia <= 100000){
 
-        document.write('deberas realizar el recorrido en auto')
+        document.write(' deberas realizar el recorrido en auto')
 
         } else if (distancia > 100000){
 
-            document.write('deberas realizar el recorrido en avion')
+            document.write(' deberas realizar el recorrido en avion')
         }
 
         
